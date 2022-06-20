@@ -19,8 +19,6 @@
 DEFINE_string(image_dir,                "examples/media/",
     "Process a directory of images. Read all standard formats (jpg, png, bmp, etc.).");
 // Display
-DEFINE_bool(no_display,                 false,
-    "Enable to disable the visual display.");
 
 // If the user needs his own variables, he can inherit the op::Datum struct and add them in there.
 // UserDatum can be directly used by the OpenPose wrapper because it inherits from op::Datum, just define
